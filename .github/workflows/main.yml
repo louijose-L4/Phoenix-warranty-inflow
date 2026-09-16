@@ -12,11 +12,11 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: Checkout code
-         uses: actions/checkout@v6.1.0
+          uses: actions/checkout@v6.1.0
             
         - name: Install Node and npm
-         uses: actions/setup-node@v6.5.0
-         with:
+          uses: actions/setup-node@v6.5.0
+          with:
             node-version: '22'
               
         - name: install newman and html-extra globally
